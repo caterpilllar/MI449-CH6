@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
     return `<div class="user"> <div class="user_name"> ${name}</div> <div class="user_twitter"> @${twitterUsername} </div> </div>`
   });
 
-  eleventyConfig.addShortcode("nav", function(input){
+  eleventyConfig.addShortcode("navbar", function(input){
     return `
     <div class='mx-5'>
       <a class='btn btn-outline-secondary col-2'>Popular</a>
