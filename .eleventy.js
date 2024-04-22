@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
 
       <section class='row'>
        <section class='col-2'>
-          <img class='w-75' src="${logo}"; >
+          <img class='w-100' src="${logo}"; >
          </section>
 
         <section class='col-2'>
